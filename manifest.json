@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "I-frames are welcome",
+  "description": "Cut off http headers to allow iframes injection",
+  "version": "1.1",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
+
